@@ -1,0 +1,30 @@
+---
+title: "Lab2Rmd"
+author: "Annika Kufrovich"
+date: "February 9, 2018"
+output: html_document
+---
+
+
+```{r}
+a <- c(2,4,3,8,5)
+b <- c(3,4,7,6,9)
+```
+
+```{r}
+plot(a,b)
+```
+
+```{r}
+plot(a,b, main = "My Scatterplot")
+```
+
+```{r}
+plot(a,b, main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+```
+
+```{r}
+plot(a,b, main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+abline(b~a)
+```
+
